@@ -1,0 +1,25 @@
+PERBAIKAN LOGIN FIREBASE - VERSI FINAL
+
+1. Admin Firebase:
+   Email: afdalarafa75@gmail.com
+
+2. Password:
+   Gunakan password yang Anda buat untuk akun Firebase tersebut.
+
+3. File rahasia:
+   Letakkan service-account JSON BARU yang Anda simpan sendiri sebagai:
+   firebase-service-account.json
+   Jangan kirim file ini ke ChatGPT atau GitHub.
+
+4. START.bat sekarang:
+   - meminta Anda memilih JSON jika belum ada;
+   - menginstal dependency jika belum ada;
+   - menjalankan server;
+   - membuka http://localhost:3000.
+
+5. server.js:
+   - ADMIN_EMAIL mengikuti .env;
+   - project Firebase dapat dibaca dari service-account jika perlu;
+   - Web API Key dapat diambil otomatis dari Firebase Web App;
+   - jika Web API Key sudah diisi di .env, key tersebut digunakan langsung;
+   - password login Admin diverifikasi melalui Firebase Authentication.

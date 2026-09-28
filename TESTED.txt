@@ -1,0 +1,19 @@
+BAITUL JALAL ILMU QURAN — FINAL READY
+
+Pengujian paket:
+- Node.js 22.16.0: LULUS
+- Server startup tanpa node_modules: LULUS
+- GET /api/health: LULUS
+- Halaman utama /: LULUS
+- Login Admin: LULUS
+- GET /api/me setelah login: LULUS
+- Dashboard Admin: LULUS
+- Database SQLite otomatis dibuat saat pertama dijalankan: LULUS
+
+Login Admin bawaan:
+Email    : afdalarafa75@gmail.com
+Password : Delisha19@
+
+Catatan:
+Firebase dan Google Drive bersifat opsional. Jangan menaruh service-account JSON di GitHub.
+Untuk mengaktifkan integrasi Firebase/Google Drive, ikuti FIREBASE_GOOGLE_DRIVE_SETUP.md.

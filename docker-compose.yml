@@ -1,0 +1,11 @@
+services:
+  baitul-jalal:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env.production
+    volumes:
+      - ./data:/app/data
+      - ./uploads:/app/uploads

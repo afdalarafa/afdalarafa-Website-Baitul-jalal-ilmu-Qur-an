@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Baitul Jalal Ilmu Quran</title>
+<meta name="description" content="Baitul Jalal Ilmu Quran — Platform resmi pembelajaran Tahfidz, Tahsin, dan Tafsir.">
+<link rel="icon" href="/logo.png">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div id="toast"></div>
+<header class="site-header">
+  <div class="brand"><img src="/logo.png" alt="Logo Baitul Jalal Ilmu Quran"><div><strong>Baitul Jalal Ilmu Quran</strong><small>مَـعْـهَـدُ بَـيْـتِ الْجَـلَالِ لِعُـلُـوْمِ الْقُـرْآنِ</small></div></div>
+  <button class="mobile-menu" onclick="toggleNav()">☰</button>
+  <nav id="publicNav">
+    <a href="#home">HOME</a><a href="#tentang">TENTANG KAMI</a><a href="#program">PROGRAM</a><a href="#guru">GURU</a><a href="#cara">CARA PENDAFTARAN</a><a href="#kontak">KONTAK</a>
+    <button class="btn small" onclick="openRegister()">DAFTAR</button><button class="btn outline small" onclick="openLogin()">LOGIN</button>
+  </nav>
+</header>
+<main id="publicApp">
+<section id="home" class="hero"><div class="hero-bg"></div><div class="hero-content"><img class="hero-logo" src="/logo.png" alt="Baitul Jalal Ilmu Quran"><div><span class="eyebrow">PENDIDIKAN AL-QUR'AN</span><h1>Baitul Jalal Ilmu Quran</h1><h2>بَيْتُ الْجَلَالِ لِعُلُومِ الْقُرْآنِ</h2><p>Wadah pembelajaran Al-Qur'an untuk Tahfidz, Tahsin, dan Tafsir secara terarah, bertahap, dan berkesinambungan.</p><div class="hero-actions"><button class="btn" onclick="openRegister()">DAFTAR SEKARANG</button><a class="btn outline" href="#tentang">PELAJARI</a></div></div></div></section>
+<section class="welcome section"><div class="section-head"><span class="eyebrow">SAMBUTAN</span><h2>Assalamu'alaikum Warahmatullahi Wabarakatuh</h2></div><p>Selamat datang di Baitul Jalal Ilmu Quran. Baitul Jalal Ilmu Quran hadir sebagai wadah pembelajaran Al-Qur'an yang berkomitmen membantu setiap peserta didik untuk mendekatkan diri kepada Al-Qur'an melalui pembelajaran Tahfidz, Tahsin, dan Tafsir secara terarah, bertahap, dan berkesinambungan.</p><p>Kami percaya bahwa mempelajari Al-Qur'an bukan hanya tentang menghafal ayat, tetapi juga tentang membaca dengan benar, memahami maknanya, serta mengamalkannya dalam kehidupan sehari-hari. Melalui website ini, proses pembelajaran dirancang agar lebih mudah, tertata, dan transparan.</p><p>Guru dapat mengelola pembelajaran dan perkembangan peserta didik, sementara murid dapat mengikuti jadwal, melihat perkembangan belajar, memperoleh informasi pembelajaran, serta memantau pencapaian mereka secara berkala.</p><p>Kami membuka kesempatan bagi para guru dan murid untuk menjadi bagian dari keluarga besar Baitul Jalal Ilmu Quran. Semoga setiap langkah dalam mempelajari, menghafal, memahami, dan mengamalkan Al-Qur'an menjadi amal kebaikan yang terus memberikan manfaat.</p><p><strong>وَخَيْرُكُمْ مَنْ تَعَلَّمَ الْقُرْآنَ وَعَلَّمَهُ</strong></p><p>Wassalamu'alaikum Warahmatullahi Wabarakatuh.</p></section>
+<section id="tentang" class="section alt"><div class="section-head"><span class="eyebrow">TENTANG KAMI</span><h2>Belajar, Menghafal, Memahami, dan Mengamalkan</h2></div><div class="cards three"><article><h3>Visi</h3><p>Membangun lingkungan pendidikan Al-Qur'an yang tertata dan berkesinambungan dalam Tahfidz, Tahsin, dan Tafsir.</p></article><article><h3>Misi</h3><p>Menyediakan pembelajaran yang terarah, pemantauan progres yang jelas, pendampingan guru, serta pengelolaan kelas dan administrasi yang aman.</p></article><article><h3>Nilai</h3><p>Amanah, disiplin, adab, ketelitian, keterbukaan informasi, dan komitmen terhadap kualitas pembelajaran.</p></article></div></section>
+<section id="program" class="section"><div class="section-head"><span class="eyebrow">PROGRAM</span><h2>Tahfidz, Tahsin, dan Tafsir</h2></div><div id="programCards" class="cards three"></div></section>
+<section id="guru" class="section alt"><div class="section-head"><span class="eyebrow">GURU</span><h2>Guru yang Tersedia</h2><p>Guru aktif dapat dipilih oleh calon murid sesuai program dan ketersediaan.</p></div><div id="teacherCards" class="cards three"></div></section>
+<section id="cara" class="section"><div class="section-head"><span class="eyebrow">CARA PENDAFTARAN</span><h2>Alur Resmi Pendaftaran</h2></div><div class="steps"><div><b>1</b><span>DAFTAR</span><small>Pilih Guru atau Murid</small></div><div><b>2</b><span>ISI FORMULIR</span><small>Lengkapi data yang diperlukan</small></div><div><b>3</b><span>VERIFIKASI</span><small>Admin/Guru memproses persetujuan</small></div><div><b>4</b><span>LOGIN</span><small>Akun aktif dapat digunakan</small></div><div><b>5</b><span>PEMBELAJARAN</span><small>Jadwal, kelas, absensi, progres</small></div><div><b>6</b><span>SERTIFIKAT</span><small>Admin mengunggah sertifikat PDF</small></div></div></section>
+
+<section id="kontak" class="section contact"><div><span class="eyebrow">KONTAK</span><h2>Hubungi Baitul Jalal Ilmu Quran</h2><p>Informasi kontak resmi dapat diperbarui Admin melalui Dashboard Pengaturan.</p></div><div id="contactInfo" class="contact-box"></div></section>
+<section id="media-sosial" class="section alt"><div class="section-head"><span class="eyebrow">MEDIA SOSIAL</span><h2>Ikuti Baitul Jalal Ilmu Quran</h2><p>Link media sosial resmi dapat dibuka langsung dari portal.</p></div><div id="socialLinks" class="social-links-grid"></div></section>
+<section class="stats section"><div class="stat"><b id="stTeachers">0</b><span>GURU AKTIF</span></div><div class="stat"><b id="stStudents">0</b><span>MURID AKTIF</span></div><div class="stat"><b id="stTahfidz">0</b><span>TAHFIDZ</span></div><div class="stat"><b id="stTahsin">0</b><span>TAHSIN</span></div><div class="stat"><b id="stTafsir">0</b><span>TAFSIR</span></div></section>
+</main>
+<main id="dashboardApp" class="dashboard-shell hidden"></main>
+<footer><div class="brand footer-brand"><img src="/logo.png" alt="Logo"><div><strong>Baitul Jalal Ilmu Quran</strong><small>Platform resmi Tahfidz • Tahsin • Tafsir</small></div></div><span>© <span id="year"></span> Baitul Jalal Ilmu Quran</span></footer>
+<div class="admin-secret" title="Login Admin" onclick="openLogin('ADMIN')">*</div>
+<div id="modal" class="modal hidden"><div class="modal-card"><button class="close" onclick="closeModal()">×</button><div id="modalBody"></div></div></div>
+<script src="/app.js"></script>
+</body></html>
